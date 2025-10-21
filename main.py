@@ -98,10 +98,10 @@ if __name__ == "__main__":
     
     while running:
         op = get_option()
-        m[op]() #hello
+        m[op]()
 
 """
 Maybe todo:
     - add backup pruning, where you get to keep at least n backup
-    prune_backups(keep=3)    
+    prune_backups(keep=3)
 """
