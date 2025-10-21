@@ -91,18 +91,17 @@ def get_option():
         op = input("[brlLh] > ")
         if (op in m):
             return op
-        print(f"{err}: {op} in not a valid option")        
+        print(f"{err}: {op} in not a valid option")
 
 if __name__ == "__main__":
     print("Press 'h' to print the help menu")
     
     while running:
         op = get_option()
-        m[op]()
+        m[op]() #hello
 
 """
 Maybe todo:
     - add backup pruning, where you get to keep at least n backup
     prune_backups(keep=3)    
 """
-
